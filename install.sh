@@ -14,3 +14,5 @@ sudo systemctl enable "gost_0.service"
 sudo systemctl start "gost_0.service"
 sudo systemctl daemon-reload
 sudo systemctl restart "gost_0.service"
+
+ps -ef | grep gost
