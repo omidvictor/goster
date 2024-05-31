@@ -1,6 +1,6 @@
 sudo apt install python3
 
-git clone "https://github.com/Am-Delta/xssh.git" /root/gost/
+git clone "https://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@github.com/omidvictor/goster.git" /root/gost/
 
 wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20240426/gost_3.0.0-nightly.20240426_linux_amd64.tar.gz
 tar -xvzf /tmp/gost.tar.gz -C /usr/local/bin/
