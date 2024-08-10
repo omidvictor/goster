@@ -5,7 +5,7 @@ from pathlib import Path
 forward = ""
 with open("hosts.txt", "r") as f:
     for data in f.readlines():
-        data = data.replace("\n", "")
+        data = data.replace("\n", "").replace(" ", "")
         host = data.split(":")[0]
         port = data.split(":")[1]
         forward += f" -L=tcp://:{port}/[{host}]:{port}"
