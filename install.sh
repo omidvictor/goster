@@ -1,4 +1,5 @@
 sudo apt install python3
+sudo apt install git
 
 rm -r /root/gost
 
