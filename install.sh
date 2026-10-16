@@ -5,7 +5,7 @@ rm -r /root/gost
 
 git clone "https://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@github.com/omidvictor/goster.git" /root/gost/
 
-wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.1.0/gost_3.1.0_linux_amd64.tar.gz
+wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.3.0/gost_3.3.0_linux_amd64.tar.gz
 tar -xvzf /tmp/gost.tar.gz -C /usr/local/bin/
 chmod +x /usr/local/bin/gost
 
